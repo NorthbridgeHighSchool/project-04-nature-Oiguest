@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Fraunces:wght@200&display=swap');
+
+.index {
+  background-image: url('pastries.jpeg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.textblock {
+  margin: 30px 45% 50px 100px;
+  background-color: rgb(220, 275, 330);
+  padding: 25px;
+}
+
+html {
+  font-family: "Bodoni Moda", Sans-Serif;
+  text-align: justify;
+}
+
+p {
+  font-family: "Fraunces", Sans-Serif;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  padding-left: 0;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+nav li a:link {
+  color: rgb(220, 275, 330);
+  margin-left: 15px;
+  padding: 15px;
+}
+
+nav li a:visited {
+  color: rgb(255, 252, 171);
+}
+
+nav li a:hover {
+  color: rgb(210, 245, 207);
+}
+
+nav li a:current {
+  color: rgba(187, 90, 90, 0.487);
+}
+
+nav li a:active {
+  color: rgb(177, 157, 185);
+}
+
+.sublist {
+  flex-direction: column;
+  position: absolute;
+  margin-top: 17px;
+  display: none;
+}
+
+.sublist li a:link {
+  color: rgb(220, 275, 330);
+  display: block;
+}
+
+.sublist li a:visited {
+  color: rgb(177, 157, 185);
+}
+
+.sublist li a:hover {
+  color: rgba(187, 90, 90, 0.487);
+}
+
+.sublist li a:current {
+  color: rgb(210, 245, 207);
+}
+
+.sublist li a:active {
+  color: rgb(255, 252, 171);
+}
+
+.itemWithDropdown:hover .sublist {
+  display: flex;
+}
+
+nav a:link {
+  background-color: rgb(131, 163, 151);
+}
+
+.sublist a:link {
+  background-color: rgb(241, 233, 186);
+}
+  
